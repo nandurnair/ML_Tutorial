@@ -9,12 +9,12 @@ b = np.array([1,2])
 
 # print(a)
 # print(a.shape)
-
+# print (a.reshape(-1,4))
 # print(b)
 # print(b.shape)
 
 # print(a**2)
-# print(np.mean(a))
+# print(np.mean(b))
 # print(np.mean(a[:,0]))
 # print(np.mean(a[:,1]))
 
@@ -24,6 +24,6 @@ b = np.array([1,2])
 
 # print(a+b)
 # print(b-a)
-# print(np.absolute(b-a))
+print(np.absolute(b-a))
 
 
